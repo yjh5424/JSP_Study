@@ -53,16 +53,16 @@
 ####JSP 페이지의 내장 객체  
  
 -<jsp에서 암시적 변수 사용> 
-    1. request (HttpServletRequest의 인스턴스) 웹 브라우저의 요청정보를 저장하는 객체
-    2. response (HttpServletResponse의 인스턴스)  웹 브라우저의 요청에 대한 응답 정보를 저장하고 있는 객체
-    **서블릿에서 요청으로 수행할 수 있는 모든잡억은 Jsp에서도 수행가능**  
-    3. session (HttpSession의 인스턴스)   정보를 유지하기 위한 세션정보를 저장
-    4. out (간단하게 jsp에서 식을 사용하거나 텍스트 또는 HTML콘텐츠를 기록가능) jsp페이지에 출력할 내용을 가지는객체
-    5. application (ServletContext 인터페이스의 인스턴스다.) 웹 어플리케이 Context의 정보를 저장하는 객체
-    6. config (ServletConfig 인터페이스의 인스턴스) jsp페이지에 대한 설정 정보룰 저장하는 객체
-    7. pageContext (PAgeContext클래스의 인스턴스, jsp태그를 작성하는데 상당히 유용) jsp페이지에 대한 정보를 저장하는 객체
-    8. page (java.lang.Object의 인스턴스) jsp페이지를 구현한 자바클래스 객체
-    9. exception (jsp가 오류처리페이지를 지정할때 사용가능) jsp페이지서 예외가 발생한 경우에 사용되는 객체
+    1. request (HttpServletRequest의 인스턴스) 웹 브라우저의 요청정보를 저장하는 객체  
+    2. response (HttpServletResponse의 인스턴스)  웹 브라우저의 요청에 대한 응답 정보를 저장하고 있는 객체  
+    **서블릿에서 요청으로 수행할 수 있는 모든잡억은 Jsp에서도 수행가능**    
+    3. session (HttpSession의 인스턴스)   정보를 유지하기 위한 세션정보를 저장  
+    4. out (간단하게 jsp에서 식을 사용하거나 텍스트 또는 HTML콘텐츠를 기록가능) jsp페이지에 출력할 내용을 가지는객체  
+    5. application (ServletContext 인터페이스의 인스턴스다.) 웹 어플리케이 Context의 정보를 저장하는 객체  
+    6. config (ServletConfig 인터페이스의 인스턴스) jsp페이지에 대한 설정 정보룰 저장하는 객체  
+    7. pageContext (PAgeContext클래스의 인스턴스, jsp태그를 작성하는데 상당히 유용) jsp페이지에 대한 정보를 저장하는 객체  
+    8. page (java.lang.Object의 인스턴스) jsp페이지를 구현한 자바클래스 객체  
+    9. exception (jsp가 오류처리페이지를 지정할때 사용가능) jsp페이지서 예외가 발생한 경우에 사용되는 객체  
 
 #### 내부객체의 속성과 관련된 메소드
 
