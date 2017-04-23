@@ -37,22 +37,22 @@
 
 -----  
 
-+<JSP> 태그사용  
-    *<jsp:incude> file속성대신 page 속성으로 파일경로 지정  
-    *<jsp:forward> 현재 실행 중인 jsp에서 다른 jsp로 요청을 전달하는 역할을한다.  
-    *<jsp:useBean> 자바빈을 선언함
-    *<jsp:getProperty> <jsp:useBean>태그로 선언한 빈에서 프로퍼티로 가져옴(getter 메소드 사용)
-    *<jsp:setProperty> 설정자 메소드(setter)를 이용해 프로퍼티를 설정
-    *<jsp:plugin> HTML에 자바 애플릿을 삽압하는데 유용함  
++ <JSP> 태그사용  
+    * <jsp:incude> file속성대신 page 속성으로 파일경로 지정  
+    * <jsp:forward> 현재 실행 중인 jsp에서 다른 jsp로 요청을 전달하는 역할을한다.  
+    * <jsp:useBean> 자바빈을 선언함
+    * <jsp:getProperty> <jsp:useBean>태그로 선언한 빈에서 프로퍼티로 가져옴(getter 메소드 사용)
+    * <jsp:setProperty> 설정자 메소드(setter)를 이용해 프로퍼티를 설정
+    * <jsp:plugin> HTML에 자바 애플릿을 삽압하는데 유용함  
 
->**자바빈(JavaBean)**이란 JavaBean규격서에 따라 작성된 자바클래스이다. 자바빈 클래스에는 파라미터가 없는 생성자가 반드시 있어야 하며, 클래스 외부에서 필드에 접근할때에는 반드시 메소드를 통하여 접근해야 하며 이때 get, set 으로 시작하는 메소드를이용한다.
+>**자바빈(JavaBean)**이란 JavaBean규격서에 따라 작성된 자바클래스이다. 자바빈 클래스에는 파라미터가 없는 생성자가 반드시 있어야 하며, 클래스 외부에서 필드에 접근할때에는 반드시 메소드를 통하여 접근해야 하며 이때 get, set 으로 시작하는 메소드를이용한다.  
 >**프로퍼티?** 자바빈 기술에서 이런 메소드를 통해 관리되는 데이터
 
 -----  
   
-####JSP 페이지의 내장 객체  
+#### JSP 페이지의 내장 객체  
  
--<jsp에서 암시적 변수 사용> 
+- <jsp에서 암시적 변수 사용>   
     1. request (HttpServletRequest의 인스턴스) 웹 브라우저의 요청정보를 저장하는 객체  
     2. response (HttpServletResponse의 인스턴스)  웹 브라우저의 요청에 대한 응답 정보를 저장하고 있는 객체  
     **서블릿에서 요청으로 수행할 수 있는 모든잡억은 Jsp에서도 수행가능**    
